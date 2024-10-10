@@ -1,0 +1,11 @@
+x,y=map(int,input().split())
+if(x>y):
+    l=x
+else:
+    l=y
+while True:
+    if l%x==0 and l%y==0:
+        lcm=l
+        break
+    l=l+1
+print(lcm)
