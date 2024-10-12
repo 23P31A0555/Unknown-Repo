@@ -1,0 +1,14 @@
+n=int(input())
+p=list(map(int,input().split()))
+r=int(input())
+flag=0
+for i in range(0,n):
+    if p[i]==r:
+        flag=1
+        break
+    else:
+        flag=0
+if flag==1:
+    print("True")
+else:
+    print("False")
