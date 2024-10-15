@@ -1,0 +1,11 @@
+n=int(input())
+p=list(map(int,input().split()))
+m=0
+add=0
+for i in range(0,n):
+    if p[i]%2==0:
+        m=m+p[i]
+    else:
+        add=add+p[i]
+diff=abs(m-add)
+print(diff)
